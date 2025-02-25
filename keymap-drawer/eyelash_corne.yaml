@@ -49,20 +49,20 @@ layers:
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: Sym&Num, h: toggle}
   Mouse:
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:keyboard-tab$$
+  - '&mkp MB4'
+  - $$mdi:mouse-right-click-outline$$
+  - $$mdi:mouse-scroll-wheel$$
+  - $$mdi:mouse-left-click-outline$$
+  - '&mkp MB5'
+  - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
   - A
   - E
   - I
   - O
   - U
-  - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
-  - {t: '6', s: ^}
-  - {t: '7', s: '&'}
-  - {t: '8', s: '*'}
-  - {t: '9', s: (}
-  - {t: '0', s: )}
   - {t: '$$mdi:backspace$$', type: backspace}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:apple-keyboard-shift$$
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-up-bold$$
@@ -77,25 +77,25 @@ layers:
   - $$mdi:mouse-right-click-outline$$
   - '&mkp MB5'
   - PG UP
-  - {t: '$$mdi:transfer$$', type: trans}
-  - RGB OFF
-  - RGB ON
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:apple-keyboard-control$$
+  - '&td0'
+  - '&td0'
+  - INS
+  - PRINTSCREEN
   - END
   - $$mdi:volume-off$$
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
-  - RGB EFR
-  - RGB SPI
-  - RGB BRI
-  - RGB BRD
+  - '&td0'
+  - '&td0'
+  - '&td0'
+  - '&td0'
   - END
   - PG DN
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: Colemak, h: toggle, type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - INS
-  - $$mdi:backspace-reverse-outline$$
+  - {t: '$$mdi:backspace$$', type: backspace}
   - {t: Sym&Num, h: toggle}
   Sym&Num:
   - $$mdi:keyboard-tab$$

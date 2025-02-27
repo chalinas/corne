@@ -61,7 +61,7 @@ layers:
   - I
   - O
   - U
-  - {t: '$$mdi:backspace$$', type: backspace}
+  - $$mdi:backspace-reverse-outline$$
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
@@ -78,20 +78,20 @@ layers:
   - '&mkp MB5'
   - PG UP
   - $$mdi:apple-keyboard-control$$
-  - '&td0'
-  - '&td0'
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - PRINTSCREEN
+  - INS
   - END
+  - HOME
+  - PAUSE BREAK
   - $$mdi:volume-off$$
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
+  - $$mdi:alpha-w-box$$
   - '&td0'
   - '&td0'
   - '&td0'
-  - '&td0'
-  - END
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - PG DN
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:apple-keyboard-command$$
   - $$mdi:keyboard-space$$
   - {t: Colemak, h: toggle}
   - {t: Sym&Num, h: toggle}
@@ -132,7 +132,7 @@ layers:
   - '8'
   - '9'
   - '0'
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - _
   - +
@@ -181,7 +181,7 @@ layers:
   - {h: '3', s: '$$mdi:bluetooth-connect$$'}
   - {h: '$$mdi:arrow-down-bold$$', s: '$$mdi:bluetooth-connect$$'}
   - EP TOG
-  - $$mdi:volume-off$$
+  - RGB COLOR HSB(0,0,100)
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - RGB EFF
   - RGB BRD

@@ -93,7 +93,7 @@ layers:
   - PG DN
   - $$mdi:apple-keyboard-command$$
   - $$mdi:keyboard-space$$
-  - {t: Colemak, h: toggle}
+  - {t: Mouse, h: toggle}
   - {t: Sym&Num, h: toggle}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:backspace$$', type: backspace}
@@ -192,6 +192,6 @@ layers:
   - LGUI
   - $$mdi:keyboard-space$$
   - {t: Colemak, h: toggle}
-  - {t: Mouse, h: toggle}
+  - {t: Sym&Num, h: toggle}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:backspace$$', type: backspace}

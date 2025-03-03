@@ -56,12 +56,12 @@ layers:
   - $$mdi:mouse-left-click-outline$$
   - '&mkp MB5'
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
-  - A
-  - E
-  - I
-  - O
-  - U
-  - $$mdi:backspace-reverse-outline$$
+  - '&a_acute'
+  - '&e_acute'
+  - '&i_acute'
+  - '&o_acute'
+  - '&u_acute'
+  - '&n_tilde'
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
@@ -94,7 +94,7 @@ layers:
   - $$mdi:apple-keyboard-command$$
   - $$mdi:keyboard-space$$
   - {t: Mouse, h: toggle}
-  - {t: Sym&Num, h: toggle}
+  - $$mdi:backspace-reverse-outline$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:backspace$$', type: backspace}
   Sym&Num:

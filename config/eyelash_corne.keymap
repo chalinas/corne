@@ -48,6 +48,50 @@
         tap-ms = <30>;
     };
 
+    macros {
+        a_acute: a_acute {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp RALT &kp SQT &kp A>;
+            label = "A_ACUTE";
+        };
+
+        e_acute: e_acute {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp RALT &kp SQT &kp E>;
+            label = "E_ACUTE";
+        };
+
+        i_acute: i_acute {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp RALT &kp SQT &kp I>;
+            label = "I_ACUTE";
+        };
+
+        o_acute: o_acute {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp RALT &kp SQT &kp O>;
+            label = "O_ACUTE";
+        };
+
+        u_acute: u_acute {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp RALT &kp SQT &kp U>;
+            label = "U_ACUTE";
+        };
+
+        n_tilde: n_tilde {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp RALT &kp TILDE &kp N>;
+            label = "N_TILDE";
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -66,10 +110,10 @@
         mouse_layer {
             display-name = "Mouse";
             bindings = <
-&kp TAB     &mkp MB4         &mkp RCLK  &mkp MCLK     &mkp LCLK  &mkp MB5                                       &mmv MOVE_UP                     &kp A       &kp E      &kp I          &kp O      &kp U     &kp DELETE
+&kp TAB     &mkp MB4         &mkp RCLK  &mkp MCLK     &mkp LCLK  &mkp MB5                                       &mmv MOVE_UP                     &a_acute    &e_acute   &i_acute       &o_acute   &u_acute  &n_tilde
 &kp LSHIFT  &kp LEFT         &kp DOWN   &kp UP_ARROW  &kp RIGHT  &kp C_AC_HOME                  &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &mkp MB4    &mkp LCLK  &mkp MCLK      &mkp RCLK  &mkp MB5  &kp PG_UP
 &kp LCTRL   &kp PRINTSCREEN  &kp INS    &kp END       &kp HOME   &kp PAUSE_BREAK  &kp C_MUTE                    &mmv MOVE_DOWN                   &caps_word  &td0       &td0           &td0       &none     &kp PG_DN
-                                        &kp LEFT_GUI  &kp SPACE  &tog 1                                                                          &tog 2      &kp ENTER  &kp BACKSPACE
+                                        &kp LEFT_GUI  &kp SPACE  &tog 1                                                                          &kp DEL     &kp ENTER  &kp BACKSPACE
             >;
 
             sensor-bindings = <&inc_dec_kp C_NEXT C_PREV>;

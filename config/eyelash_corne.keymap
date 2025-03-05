@@ -111,7 +111,7 @@
 &kp TAB     &mkp MB4         &mkp RCLK  &mkp MCLK     &mkp LCLK  &mkp MB5                                       &mmv MOVE_UP                     &a_acute    &e_acute       &i_acute    &o_acute   &u_acute  &n_tilde
 &kp LSHIFT  &kp LEFT         &kp DOWN   &kp UP_ARROW  &kp RIGHT  &kp C_AC_HOME                  &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &mkp MB4    &mkp LCLK      &mkp MCLK   &mkp RCLK  &mkp MB5  &kp PG_UP
 &kp LCTRL   &kp PRINTSCREEN  &kp INS    &kp END       &kp HOME   &kp PAUSE_BREAK  &kp C_MUTE                    &mmv MOVE_DOWN                   &caps_word  &td0           &td0        &td0       &none     &kp PG_DN
-                                        &kp LEFT_GUI  &kp SPACE  &tog 1                                                                          &kp ENTER   &kp BACKSPACE  &kp DELETE
+                                        &kp LGUI      &kp SPACE  &tog 1                                                                          &kp ENTER   &kp BACKSPACE  &kp DELETE
             >;
 
             sensor-bindings = <&inc_dec_kp C_NEXT C_PREV>;
@@ -120,10 +120,10 @@
         symbol_layer {
             display-name = "Sym&Num";
             bindings = <
-&kp TAB         &kp EXCL      &kp AT        &kp HASH      &kp DLLR      &kp PRCNT                                  &mmv MOVE_UP                     &kp CARET   &kp AMPS       &kp LPAR  &kp RPAR  &kp ASTERISK   &kp ESCAPE
-&kp LEFT_SHIFT  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5                     &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp MINUS   &kp EQUAL      &kp LBKT  &kp RBKT  &kp LT         &kp GT
-&kp LCTRL       &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0  &mkp LCLK                    &mmv MOVE_DOWN                   &kp UNDER   &kp PLUS       &kp LBRC  &kp RBRC  &kp BACKSLASH  &kp GRAVE
-                                            &kp LEFT_GUI  &kp SPACE     &to 0                                                                       &kp RETURN  &kp BACKSPACE  &to 3
+&kp TAB         &kp EXCL      &kp AT        &kp HASH      &kp DLLR      &kp PRCNT                                  &mmv MOVE_UP                     &kp CARET  &kp AMPS       &kp LPAR  &kp RPAR  &kp ASTERISK   &kp ESCAPE
+&kp LEFT_SHIFT  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5                     &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp MINUS  &kp EQUAL      &kp LBKT  &kp RBKT  &kp LT         &kp GT
+&kp LCTRL       &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0  &mkp LCLK                    &mmv MOVE_DOWN                   &kp UNDER  &kp PLUS       &kp LBRC  &kp RBRC  &kp BACKSLASH  &kp GRAVE
+                                            &kp LGUI      &kp SPACE     &to 0                                                                       &kp ENTER  &kp BACKSPACE  &to 3
             >;
 
             sensor-bindings = <&inc_dec_kp LEFT RIGHT>;
@@ -135,7 +135,7 @@
 &kp F1          &kp F2        &kp F3        &kp F4        &kp F5      &kp F6                                                               &mmv MOVE_UP                     &kp F7           &kp F8           &kp F9           &kp F10          &kp F11  &kp F12
 &bt BT_CLR      &none         &none         &none         &none       &soft_off                                            &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &rgb_ug RGB_TOG  &rgb_ug RGB_BRI  &rgb_ug RGB_SAI  &rgb_ug RGB_HUI  &none    &sys_reset
 &bt BT_CLR_ALL  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_NXT  &ext_power EP_TOG  &rgb_ug RGB_COLOR_HSB(0,0,100)                    &mmv MOVE_DOWN                   &rgb_ug RGB_EFF  &rgb_ug RGB_BRD  &rgb_ug RGB_SAD  &rgb_ug RGB_HUD  &none    &bootloader
-                                            &kp LGUI      &kp SPACE   &to 0                                                                                                 &kp RETURN       &kp BACKSPACE    &to 2
+                                            &kp LGUI      &kp SPACE   &to 0                                                                                                 &kp ENTER        &kp BACKSPACE    &to 2
             >;
 
             sensor-bindings = <&rgb_encoder>;

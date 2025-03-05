@@ -45,9 +45,9 @@ layers:
   - LGUI
   - $$mdi:keyboard-space$$
   - {t: Mouse, h: toggle}
-  - {t: Sym&Num, h: toggle}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:backspace$$', type: backspace}
+  - {t: Sym&Num, h: toggle}
   Mouse:
   - $$mdi:keyboard-tab$$
   - '&mkp MB4'
@@ -94,9 +94,9 @@ layers:
   - $$mdi:apple-keyboard-command$$
   - $$mdi:keyboard-space$$
   - {t: Mouse, h: toggle}
-  - $$mdi:backspace-reverse-outline$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:backspace$$', type: backspace}
+  - $$mdi:backspace-reverse-outline$$
   Sym&Num:
   - $$mdi:keyboard-tab$$
   - '!'
@@ -143,9 +143,9 @@ layers:
   - $$mdi:apple-keyboard-command$$
   - $$mdi:keyboard-space$$
   - {t: Colemak, h: toggle}
-  - {t: Fn, h: toggle}
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - RETURN
   - {t: '$$mdi:backspace$$', type: backspace}
+  - {t: Fn, h: toggle}
   Fn:
   - F1
   - F2
@@ -192,6 +192,6 @@ layers:
   - LGUI
   - $$mdi:keyboard-space$$
   - {t: Colemak, h: toggle}
-  - {t: Sym&Num, h: toggle}
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - RETURN
   - {t: '$$mdi:backspace$$', type: backspace}
+  - {t: Sym&Num, h: toggle}

@@ -5,25 +5,25 @@ layers:
   - Q
   - W
   - F
-  - P
-  - B
+  - $$mdi:mouse-right-click-outline$$
+  - '&td0'
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
-  - J
-  - L
-  - U
-  - Y
-  - {t: ;, s: ':'}
+  - '&td0'
+  - Ins
+  - HOME
+  - END
+  - Ins
   - $$mdi:backspace-reverse-outline$$
   - $$mdi:apple-keyboard-shift$$
-  - {t: A, h: '$$mdi:apple-keyboard-command$$'}
-  - {t: R, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: S, h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: T, h: '$$mdi:apple-keyboard-control$$'}
-  - G
+  - $$mdi:apple-keyboard-command$$
+  - $$mdi:apple-keyboard-option$$
+  - $$mdi:apple-keyboard-shift$$
+  - $$mdi:apple-keyboard-control$$
+  - PRINTSCREEN
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
-  - M
+  - '&td0'
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-up-bold$$
@@ -33,14 +33,14 @@ layers:
   - Z
   - X
   - C
-  - D
-  - V
+  - $$mdi:mouse-scroll-wheel$$
+  - '&td0'
   - PLAY PAUSE
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
-  - K
-  - H
-  - {t: ',', s: <}
-  - {t: ., s: '>'}
+  - '&td0'
+  - '&td0'
+  - PgDn
+  - PG UP
   - {t: /, s: '?'}
   - $$mdi:apple-keyboard-option$$
   - $$mdi:keyboard-esc$$

@@ -48,7 +48,7 @@ layers:
   - {t: Navigation, h: toggle}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:keyboard-space$$
-  - {t: Colemak, h: toggle}
+  - {t: SymNum, h: toggle}
   Navigation:
   - $$mdi:keyboard-tab$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}

@@ -5,6 +5,153 @@ layers:
   - Q
   - W
   - F
+  - P
+  - B
+  - $$mdi:arrow-up-bold$$
+  - J
+  - L
+  - U
+  - Y
+  - {t: ;, s: ':'}
+  - $$mdi:backspace-reverse-outline$$
+  - $$mdi:apple-keyboard-shift$$
+  - {t: A, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: R, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: S, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: T, h: '$$mdi:apple-keyboard-control$$'}
+  - G
+  - $$mdi:arrow-left-bold$$
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - $$mdi:arrow-right-bold$$
+  - M
+  - {t: N, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: E, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: I, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: O, h: LGUI}
+  - {t: '''', s: '"'}
+  - {t: A, h: Ins}
+  - Z
+  - X
+  - C
+  - D
+  - V
+  - PLAY PAUSE
+  - $$mdi:arrow-down-bold$$
+  - K
+  - H
+  - {t: ',', s: <}
+  - {t: ., s: '>'}
+  - {t: /, s: '?'}
+  - '~'
+  - $$mdi:keyboard-esc$$
+  - {t: '$$mdi:backspace$$', type: backspace}
+  - {t: Navigation, h: toggle}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - $$mdi:keyboard-space$$
+  - {t: Colemak, h: toggle}
+  Navigation:
+  - $$mdi:keyboard-tab$$
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:mouse-right-click-outline$$
+  - '&td0'
+  - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
+  - '&td0'
+  - Ins
+  - HOME
+  - END
+  - Ins
+  - $$mdi:backspace-reverse-outline$$
+  - $$mdi:apple-keyboard-shift$$
+  - $$mdi:apple-keyboard-command$$
+  - $$mdi:apple-keyboard-option$$
+  - $$mdi:apple-keyboard-shift$$
+  - $$mdi:apple-keyboard-control$$
+  - PRINTSCREEN
+  - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
+  - $$mdi:mouse-left-click-outline$$
+  - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
+  - '&td0'
+  - $$mdi:arrow-left-bold$$
+  - $$mdi:arrow-down-bold$$
+  - $$mdi:arrow-up-bold$$
+  - $$mdi:arrow-right-bold$$
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:mouse-scroll-wheel$$
+  - '&td0'
+  - PLAY PAUSE
+  - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
+  - '&td0'
+  - '&td0'
+  - PgDn
+  - PG UP
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:keyboard-esc$$
+  - {t: '$$mdi:backspace$$', type: backspace}
+  - {t: Colemak, h: toggle}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - $$mdi:keyboard-space$$
+  - {t: SymNum, h: toggle}
+  SymNum:
+  - $$mdi:keyboard-tab$$
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '7', s: '&'}
+  - {t: '8', s: '*'}
+  - {t: '9', s: (}
+  - '&td0'
+  - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
+  - '&'
+  - '|'
+  - (
+  - )
+  - {t: ;, s: ':'}
+  - $$mdi:backspace-reverse-outline$$
+  - $$mdi:apple-keyboard-shift$$
+  - $$mdi:apple-keyboard-command$$
+  - {t: '4', s: $}
+  - {t: '5', s: '%'}
+  - {t: '6', s: ^}
+  - {t: '0', s: )}
+  - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
+  - $$mdi:mouse-left-click-outline$$
+  - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
+  - {t: '[', s: '{'}
+  - {t: ']', s: '}'}
+  - '{'
+  - '}'
+  - '?'
+  - {t: '''', s: '"'}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '1', s: '!'}
+  - {t: '2', s: '@'}
+  - {t: '3', s: '#'}
+  - {t: '0', s: )}
+  - PLAY PAUSE
+  - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
+  - '&td0'
+  - '&td0'
+  - {t: ',', s: <}
+  - {t: ., s: '>'}
+  - {t: /, s: '?'}
+  - $$mdi:apple-keyboard-option$$
+  - $$mdi:keyboard-esc$$
+  - {t: '$$mdi:backspace$$', type: backspace}
+  - {t: Colemak, h: toggle}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - $$mdi:keyboard-space$$
+  - {t: Dunno, h: toggle}
+  Dunno:
+  - $$mdi:keyboard-tab$$
+  - Q
+  - W
+  - F
   - $$mdi:mouse-right-click-outline$$
   - '&td0'
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
@@ -48,4 +195,4 @@ layers:
   - {t: Colemak, h: toggle}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:keyboard-space$$
-  - {t: Colemak, h: toggle}
+  - {t: SymNum, h: toggle}

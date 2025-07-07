@@ -111,7 +111,7 @@
 &kp TAB         &none         &none     &none       &mkp RCLK  &td0                                                 &mmv MOVE_UP                     &td0       &kp PAUSE_BREAK  &kp HOME       &kp END    &kp INSERT  &kp DEL
 &kp LEFT_SHIFT  &kp LEFT_GUI  &kp LALT  &kp LSHIFT  &kp LCTRL  &kp PRINTSCREEN                      &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &td0       &kp LEFT         &kp DOWN       &kp UP     &kp RIGHT   &none
 &none           &none         &none     &none       &mkp MCLK  &td0             &kp C_PLAY_PAUSE                    &mmv MOVE_DOWN                   &td0       &td0             &kp PAGE_DOWN  &kp PG_UP  &none       &none
-                                        &kp ESC     &kp BSPC   &tog 0                                                                                &kp ENTER  &kp SPACE        &to 2
+                                        &kp ESC     &kp BSPC   &tog 1                                                                                &kp ENTER  &kp SPACE        &to 2
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
@@ -123,7 +123,7 @@
 &kp TAB         &kp AT        &kp N7                 &kp N8             &kp N9        &kp EQUAL                                &kp UP_ARROW             &kp AMPERSAND     &kp PIPE                 &kp LPAR                   &kp RIGHT_PARENTHESIS     &kp SEMICOLON   &kp DEL
 &kp LEFT_SHIFT  &kp LEFT_GUI  &mt LEFT_ALT NUMBER_4  &mt LEFT_SHIFT N5  &mt LCTRL N6  &kp N0                         &kp LEFT  &kp ENTER     &kp RIGHT  &kp LEFT_BRACKET  &mt LCTRL RIGHT_BRACKET  &mt LEFT_SHIFT LEFT_BRACE  &mt LEFT_ALT RIGHT_BRACE  &mt LGUI ASTRK  &kp SQT
 &none           &kp PERCENT   &kp N1                 &kp N2             &kp N3        &kp MINUS  &kp C_PLAY_PAUSE              &kp DOWN                 &kp EXCL          &kp GRAVE                &kp COMMA                  &kp DOT                   &kp FSLH        &none
-                                                     &kp ESC            &kp BSPC      &tog 0                                                            &kp ENTER         &kp SPACE                &to 3
+                                                     &kp ESC            &kp BSPC      &to 0                                                             &kp ENTER         &kp SPACE                &to 3
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
@@ -135,7 +135,7 @@
 &kp F1          &kp F2        &kp F3      &kp F4      &kp F5     &kp F6                                     &mmv MOVE_UP                     &kp F7                            &kp F8     &kp F9      &kp F10  &kp F11  &kp F12
 &kp LEFT_SHIFT  &kp LEFT_GUI  &kp LALT    &kp LSHIFT  &kp LCTRL  &none                      &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &rgb_ug RGB_TOG                   &none      &none       &none    &none    &none
 &bt BT_CLR      &bt BT_NXT    &bt BT_PRV  &none       &none      &none   &rgb_ug RGB_EFF                    &mmv MOVE_DOWN                   &rgb_ug RGB_COLOR_HSB(196,0,100)  &none      &bl BL_TOG  &none    &none    &none
-                                          &kp ESC     &kp BSPC   &tog 0                                                                      &kp ENTER                         &kp SPACE  &to 2
+                                          &kp ESC     &kp BSPC   &to 0                                                                       &kp ENTER                         &kp SPACE  &to 2
             >;
 
             sensor-bindings = <&rgb_encoder>;

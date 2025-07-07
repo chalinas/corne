@@ -91,25 +91,49 @@
     keymap {
         compatible = "zmk,keymap";
 
-        default_layer {
+        Colemak {
             display-name = "Colemak";
             bindings = <
 &kp TAB         &kp Q           &kp W       &kp F         &kp P        &kp B                                 &kp UP                &kp J      &kp L        &kp U         &kp Y       &kp SEMI    &kp DEL
 &kp LEFT_SHIFT  &mt LEFT_GUI A  &mt LALT R  &mt LSHIFT S  &mt LCTRL T  &kp G                       &kp LEFT  &kp ENTER  &kp RIGHT  &kp M      &mt LCTRL N  &mt LSHIFT E  &mt LALT I  &mt LGUI O  &kp SQT
-&td0            &kp Z           &kp X       &kp C         &kp D        &kp V   &kp C_PLAY_PAUSE              &kp DOWN              &kp K      &kp H        &kp COMMA     &kp DOT     &kp FSLH    &td0
-                                            &kp ESC       &kp BSPC     &tog 0                                                      &kp ENTER  &kp SPACE    &to 0
+&mt INSERT A    &kp Z           &kp X       &kp C         &kp D        &kp V   &kp C_PLAY_PAUSE              &kp DOWN              &kp K      &kp H        &kp COMMA     &kp DOT     &kp FSLH    &kp TILDE
+                                            &kp ESC       &kp BSPC     &tog 1                                                      &kp ENTER  &kp SPACE    &to 0
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
         };
 
-        layer_1 {
+        Navigation {
             display-name = "Colemak";
             bindings = <
-&kp TAB         &kp Q           &kp W       &kp F         &kp P        &kp B                                       &mmv MOVE_UP                     &kp J      &kp L      &kp U      &kp Y    &kp SEMI   &kp DEL
-&kp LEFT_SHIFT  &mt LEFT_GUI A  &mt LALT R  &mt LSHIFT S  &mt LCTRL T  &kp G                       &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp M      &kp LEFT   &kp DOWN   &kp UP   &kp RIGHT  &kp SQT
-&kp LCTRL       &kp Z           &kp X       &kp C         &kp D        &kp V   &kp C_PLAY_PAUSE                    &mmv MOVE_DOWN                   &kp K      &kp H      &kp COMMA  &kp DOT  &kp FSLH   &kp RALT
-                                            &kp ESC       &kp BSPC     &tog 0                                                                       &kp ENTER  &kp SPACE  &to 0
+&kp TAB         &kp Q         &kp W     &kp F       &mkp RCLK  &td0                                                 &mmv MOVE_UP                     &td0       &kp INSERT  &kp HOME       &kp END    &kp INSERT  &kp DEL
+&kp LEFT_SHIFT  &kp LEFT_GUI  &kp LALT  &kp LSHIFT  &kp LCTRL  &kp PRINTSCREEN                      &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &td0       &kp LEFT    &kp DOWN       &kp UP     &kp RIGHT   &kp SQT
+&kp LCTRL       &kp Z         &kp X     &kp C       &mkp MCLK  &td0             &kp C_PLAY_PAUSE                    &mmv MOVE_DOWN                   &td0       &td0        &kp PAGE_DOWN  &kp PG_UP  &kp FSLH    &kp RALT
+                                        &kp ESC     &kp BSPC   &tog 0                                                                                &kp ENTER  &kp SPACE   &to 1
+            >;
+
+            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
+        };
+
+        layer_2 {
+            display-name = "Colemak";
+            bindings = <
+&kp TAB         &kp Q         &kp N7  &kp N8   &kp N9    &td0                                        &mmv MOVE_UP                     &kp LESS_THAN  &kp INSERT  &kp LPAR          &kp RIGHT_PARENTHESIS  &kp SEMICOLON  &kp DEL
+&kp LEFT_SHIFT  &kp LEFT_GUI  &kp N4  &kp N5   &kp N6    &kp N0                      &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &td0           &kp LEFT    &kp LEFT_BRACE    &kp RIGHT_BRACE        &kp RIGHT      &kp SQT
+&kp LCTRL       &kp Z         &kp N1  &kp N2   &kp N3    &kp N0  &kp C_PLAY_PAUSE                    &mmv MOVE_DOWN                   &td0           &td0        &kp LEFT_BRACKET  &kp RIGHT_BRACKET      &kp FSLH       &kp RALT
+                                      &kp ESC  &kp BSPC  &tog 0                                                                       &kp ENTER      &kp SPACE   &to 3
+            >;
+
+            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
+        };
+
+        layer_3 {
+            display-name = "Colemak";
+            bindings = <
+&kp TAB         &kp Q         &kp W     &kp F       &mkp RCLK  &td0                                                 &mmv MOVE_UP                     &td0       &kp INSERT  &kp HOME       &kp END    &kp INSERT  &kp DEL
+&kp LEFT_SHIFT  &kp LEFT_GUI  &kp LALT  &kp LSHIFT  &kp LCTRL  &kp PRINTSCREEN                      &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &td0       &kp LEFT    &kp DOWN       &kp UP     &kp RIGHT   &kp SQT
+&kp LCTRL       &kp Z         &kp X     &kp C       &mkp MCLK  &td0             &kp C_PLAY_PAUSE                    &mmv MOVE_DOWN                   &td0       &td0        &kp PAGE_DOWN  &kp PG_UP  &kp FSLH    &kp RALT
+                                        &kp ESC     &kp BSPC   &tog 0                                                                                &kp ENTER  &kp SPACE   &to 2
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;

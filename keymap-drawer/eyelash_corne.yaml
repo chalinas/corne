@@ -29,7 +29,7 @@ layers:
   - {t: I, h: '$$mdi:apple-keyboard-option$$'}
   - {t: O, h: LGUI}
   - {t: '''', s: '"'}
-  - {t: A, h: Ins}
+  - Ins
   - Z
   - X
   - C

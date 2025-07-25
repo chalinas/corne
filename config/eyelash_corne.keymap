@@ -22,6 +22,12 @@
 #define ZMK_MOUSE_DEFAULT_MOVE_VAL 1200  // 600
 #define ZMK_MOUSE_DEFAULT_SCRL_VAL 20    // 10
 
+&mt {
+    tapping-term-ms = <300>;
+    require-prior-idle-ms = <125>;
+    flavor = "tap-preferred";
+};
+
 / {
     behaviors {
         td0: td0 {
@@ -46,50 +52,6 @@
         tap-ms = <30>;
     };
 
-    macros {
-        a_acute: a_acute {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&none &kp RALT &kp SQT &kp A>;
-            label = "A_ACUTE";
-        };
-
-        e_acute: e_acute {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&none &kp RALT &kp SQT &kp E>;
-            label = "E_ACUTE";
-        };
-
-        i_acute: i_acute {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&none &kp RALT &kp SQT &kp I>;
-            label = "I_ACUTE";
-        };
-
-        o_acute: o_acute {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&none &kp RALT &kp SQT &kp O>;
-            label = "O_ACUTE";
-        };
-
-        u_acute: u_acute {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&none &kp RALT &kp SQT &kp U>;
-            label = "U_ACUTE";
-        };
-
-        n_tilde: n_tilde {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&none &kp RALT &kp TILDE &kp N>;
-            label = "N_TILDE";
-        };
-    };
-
     keymap {
         compatible = "zmk,keymap";
 
@@ -98,7 +60,7 @@
             bindings = <
 &kp TAB         &kp Q           &kp W       &kp F         &kp P        &kp B                                 &kp UP                &kp J      &kp L        &kp U         &kp Y       &kp SEMI    &kp DEL
 &kp LEFT_SHIFT  &mt LEFT_GUI A  &mt LALT R  &mt LSHIFT S  &mt LCTRL T  &kp G                       &kp LEFT  &kp ENTER  &kp RIGHT  &kp M      &mt LCTRL N  &mt LSHIFT E  &mt LALT I  &mt LGUI O  &kp SQT
-&mt INSERT A    &kp Z           &kp X       &kp C         &kp D        &kp V   &kp C_PLAY_PAUSE              &kp DOWN              &kp K      &kp H        &kp COMMA     &kp DOT     &kp FSLH    &kp TILDE
+&kp INSERT      &kp Z           &kp X       &kp C         &kp D        &kp V   &kp C_PLAY_PAUSE              &kp DOWN              &kp K      &kp H        &kp COMMA     &kp DOT     &kp FSLH    &kp TILDE
                                             &kp ESC       &kp BSPC     &tog 1                                                      &kp ENTER  &kp SPACE    &to 2
             >;
 
